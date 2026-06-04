@@ -10,23 +10,26 @@ export const restaurant = {
 export const menus = [
   {
     _id: "1",
-    itemName: "Paneer Butter Masala",
+    itemName: "Pizza",
     price: 250,
     category: "Main Course",
-    image: "https://picsum.photos/200?random=1"
+    status:"Active",
+    image: "/images/pizza.webp"
   },
   {
     _id: "2",
-    itemName: "Butter Naan",
+    itemName: "Coffee",
     price: 40,
-    category: "Bread",
-    image: "https://picsum.photos/200?random=2"
+    category: "Drinks",
+    status:"Active",
+    image: "/images/coffe.webp"
   },
   {
     _id: "3",
-    itemName: "Veg Biryani",
+    itemName: "Ice Creame",
     price: 180,
-    category: "Rice",
-    image: "https://picsum.photos/200?random=3"
+    category: "Dessert",
+    status:"Active",
+    image: "/images/icecreame.webp"
   }
 ];
