@@ -6,6 +6,8 @@ const Router=require("./routes/index")
 const app=express()
 app.use(express.json())
 
+app.use("/public",express.static("./public"))
+
 app.use("/api",Router)
 
 const port=process.env.PORT || 8000
