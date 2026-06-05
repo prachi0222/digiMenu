@@ -9,7 +9,7 @@ export const restaurant = {
 
 export const menus = [
   {
-    _id: "1",
+    id: "1",
     itemName: "Pizza",
     price: 250,
     category: "Main Course",
@@ -17,7 +17,7 @@ export const menus = [
     image: "/images/pizza.webp"
   },
   {
-    _id: "2",
+    id: "2",
     itemName: "Coffee",
     price: 40,
     category: "Drinks",
@@ -25,11 +25,11 @@ export const menus = [
     image: "/images/coffe.webp"
   },
   {
-    _id: "3",
+    id: "3",
     itemName: "Ice Creame",
     price: 180,
     category: "Dessert",
-    status:"Active",
+    status:"Inactive",
     image: "/images/icecreame.webp"
   }
 ];

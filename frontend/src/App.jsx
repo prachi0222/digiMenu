@@ -9,6 +9,8 @@ import Dashboard from './pages/admin/Dashboard'
 import MenuList from './pages/admin/MenuList'
 import AddMenu from './pages/admin/AddMenu'
 import EditMenu from './pages/admin/EditMenu'
+import Login from './pages/admin/Login'
+import QRCodePage from './pages/admin/QRCodePage'
 function App() {
   return (
     <>
@@ -17,11 +19,15 @@ function App() {
      
          <Routes>
           <Route path='/' element={<HomePage/>}/>
-          <Route path='/menu' element={<MenuPage/>}/>
+          <Route path='/menu/:restaurantId' element={<MenuPage/>}/>
           <Route path='/admin' element={<Dashboard/>}/>
           <Route path='/admin/menu' element={<MenuList/>}/>
           <Route path='/admin/menu/add' element={<AddMenu/>}/>
           <Route path='/admin/menu/edit/:id' element={<EditMenu/>}/>
+
+         
+          <Route path='/login' element={<Login/>}/>
+          
          </Routes>
           <Footer/>
       </BrowserRouter>

@@ -15,8 +15,11 @@ function Navbar() {
             Home
           </Link>
 
-          <Link className="nav-link" to="/menu">
+          <Link className="nav-link" to="/menu/6a1ed40d5b2cc073a47ab395">
             Menu
+          </Link>
+          <Link className="nav-link" to="/admin">
+            Admin
           </Link>
         </div>
 
