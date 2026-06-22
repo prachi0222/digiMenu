@@ -24,10 +24,11 @@ function App() {
           <Route path='/admin/menu' element={<MenuList/>}/>
           <Route path='/admin/menu/add' element={<AddMenu/>}/>
           <Route path='/admin/menu/edit/:id' element={<EditMenu/>}/>
-
+           
          
           <Route path='/login' element={<Login/>}/>
           
+          <Route path="/admin/qr" element={<QRCodePage />} />
          </Routes>
           <Footer/>
       </BrowserRouter>

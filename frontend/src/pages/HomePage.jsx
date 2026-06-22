@@ -1,5 +1,6 @@
 import React from 'react'
 import QR from '../components/QR';
+import QRCodePage from './admin/QRCodePage';
 
 function HomePage() {
   return (
@@ -12,7 +13,7 @@ function HomePage() {
         </h1>
 
       
-        <QR/>
+        <QRCodePage  isAdmin={false}/>
       </div>
 
     </div>
